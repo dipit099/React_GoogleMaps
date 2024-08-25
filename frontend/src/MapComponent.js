@@ -144,7 +144,7 @@ function MapComponent() {
                         </div>
                     </div>
                     <span>Choose a route:</span>
-                    {routes.length > 1 && (
+                    {routes.length >= 1 && (
                         <div className="route-selection">
 
                             <div className="route-buttons">

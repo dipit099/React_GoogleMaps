@@ -17,13 +17,8 @@ npm start
 
 
 ```
-npm install @react-google-maps/api
-npm i dotenv
-npm i @chakra-ui/react
-npm i react-icons
+npm install @react-google-maps/api dotenv @chakra-ui/react react-icons
 ```
-
-
 
 ## Author
 
