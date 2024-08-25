@@ -1,0 +1,120 @@
+.map-component {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+.map-container {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.control-panel {
+    position: absolute;
+    top: 10px;
+    /* Space from the top */
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 16px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 800px;
+    /* Limit the maximum width */
+    z-index: 1;
+}
+
+.input-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+    margin-bottom: 16px;
+}
+
+.input-field {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    flex-grow: 1;
+    width: 270px;
+}
+
+.buttons-container {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 16px;
+}
+
+.calculate-btn {
+    background-color: #d53f8c;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.clear-btn {
+    background-color: #e2e8f0;
+    border: none;
+    padding: 8px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.icon {
+    font-size: 16px;
+}
+
+.info-container {
+    margin-top: 16px;
+}
+
+.info-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.duration-container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.center-btn {
+    background-color: #e2e8f0;
+    border: none;
+    border-radius: 50%;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.route-selection {
+    margin-top: 16px;   
+}
+
+.route-buttons {
+    gap: 8px;
+    display: flex;
+    
+}
+
+.route-btn {
+    background-color: #edf2f7;
+    border: none;
+    padding: 8px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.route-btn.selected {
+    background-color: #319795;
+    color: white;
+}
